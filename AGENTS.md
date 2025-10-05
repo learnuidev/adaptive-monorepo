@@ -167,6 +167,7 @@ Each repository has its own AGENTS.md file with specific guidelines for that com
 - AI first find the task and changes its status to IN_PROGRESS
 - The AI then implements the feature by creating the necessary files and directories.
 - Once AI finishes implement the feature, it should change the status to DONE.
+- The AI should also add a section called ## Agent Report outling all the possble changes made in the md file
 
 ---
 
