@@ -9,7 +9,7 @@ This is a multi-repository adaptive analytics platform consisting of four main c
 - **adaptive** (`/adaptive`) - React frontend application
 - **adaptive-backend** (`/adaptive-backend`) - Serverless AWS analytics backend
 - **adaptive-engine** (`/adaptive-engine`) - TypeScript analytics SDK
-- **agent-tasks** (`/agent-tasks`) - Development pipeline and task management managed by Humans for AI Agents
+- **agent-goals** (`/agent-goals`) - Development pipeline and task management managed by Humans for AI Agents
 
 Each repository has its own AGENTS.md file with specific guidelines for that component. This document provides an overview of the entire platform and cross-repository conventions.
 
@@ -39,7 +39,7 @@ Each repository has its own AGENTS.md file with specific guidelines for that com
 - Feature flag management and cohort analysis
 - Data collection and event tracking utilities
 
-### 2.4 Pipeline (agent-tasks)
+### 2.4 Pipeline (agent-goals)
 
 - Development pipeline and task management system
 - Feature implementation tracking and documentation
@@ -153,14 +153,14 @@ Each repository has its own AGENTS.md file with specific guidelines for that com
 - Type Check: `npm run typecheck`
 - Test: `npm test`
 
-### 7.4 Tasks (agent tasks)
+### 7.4 Goals (agent goals)
 
-- Create new task: Add markdown file to appropriate date directory
+- Create new goal: Add markdown file to appropriate date directory
 - Format: `YYYY/MM/DD_HH_MM_description.md`
 - Task status tracking within markdown files
 - Cross-repository task coordination and documentation
 
-### 7.4.1 Agent Tasks (agent-tasks) workflow
+### 7.4.1 Agent Goals (agent-goals) workflow
 
 - This is written by human and initially status is TODO.
 - The user then asks AI to implement the feature by feature description
@@ -178,7 +178,7 @@ For detailed guidelines specific to each repository, please refer to:
 - `/adaptive/AGENTS.md` - Frontend-specific conventions
 - `/adaptive-backend/AGENTS.md` - Backend-specific conventions
 - `/adaptive-engine/AGENTS.md` - SDK-specific conventions
-- `/agent-tasks` - Any tasks and development coordination (no separate AGENTS.md needed)
+- `/agent-goals` - Any tasks/goals and development coordination (no separate AGENTS.md needed)
 
 ---
 
