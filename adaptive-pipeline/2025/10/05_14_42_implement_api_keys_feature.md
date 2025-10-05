@@ -14,6 +14,7 @@ Why: Currently, when we create user credentials we create both api key and api s
 - [ ] Delete api key
 - [ ] Update user credentials API to only create api key.
 - [ ] Create API secret keys rotation feature.
+- [ ] Update serverless.yml to add endpoints, dynamodb tables etc
 
 To store the api secret we should use dynamodb table. It should be called ApiKeysTable. The table should have the following columns:
 
